@@ -1,0 +1,22 @@
+name: ifd
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  # PyTorch Packages
+  - pytorch=2.3.1
+  - torchvision=0.18.1
+  - torchaudio=2.3.1
+  - pytorch-cuda=12.4
+
+  # Other Data Science Packages
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tqdm
+  - pip
+  - pip:
+      - medmnist
+      - deeplake<4

@@ -1,0 +1,130 @@
+{
+  "expert_registry": [
+    {
+      "expert_id": "expert_blood_mnist_0_realistic_specialist",
+      "specialty_class": 0,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_1_realistic_specialist",
+      "specialty_class": 1,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_2_realistic_specialist",
+      "specialty_class": 2,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_3_realistic_specialist",
+      "specialty_class": 3,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_4_realistic_specialist",
+      "specialty_class": 4,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_5_realistic_specialist",
+      "specialty_class": 5,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_6_realistic_specialist",
+      "specialty_class": 6,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_7_realistic_specialist",
+      "specialty_class": 7,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_8_realistic_specialist",
+      "specialty_class": 8,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    },
+    {
+      "expert_id": "expert_blood_mnist_9_realistic_specialist",
+      "specialty_class": 9,
+      "archetype": "realistic_specialist",
+      "specialty_alpha": 2.860519,
+      "specialty_beta": 1.734601,
+      "non_specialty_alpha": 0.887303,
+      "non_specialty_beta": 0.847298
+    }
+  ],
+  "archetype_definitions": {
+    "variable_specialist": {
+      "name": "Variable Specialist",
+      "description": "High variability based on instance difficulty",
+      "specialty_params": [
+        4.595119850134584,
+        -0.0
+      ],
+      "non_specialty_params": [
+        2.772588722239781,
+        -1.3862943611198906
+      ]
+    },
+    "realistic_specialist": {
+      "name": "Stable Specialist",
+      "description": "Low variability",
+      "specialty_params": [
+        2.8605187947464774,
+        1.7346010553881062
+      ],
+      "non_specialty_params": [
+        0.8873031950009026,
+        0.8472978603872036
+      ]
+    }
+  },
+  "generation_summary": {
+    "total_experts": 10,
+    "datasets": [
+      "train",
+      "val",
+      "test"
+    ],
+    "total_prediction_files": 30,
+    "last_updated": "2025-09-27T11:13:48.594855"
+  }
+}
